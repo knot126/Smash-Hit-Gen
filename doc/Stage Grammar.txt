@@ -1,0 +1,12 @@
+Room       = StartSegment | (MidSegment)* | EndSegment
+Segment    = StartSegment | EndSegment | MidSegment
+
+StartSegment = Walls (Decor)?
+EndSegment = Walls (Decor)? Door
+MidSegment = Walls (Decor)? (Obstacle | Stone | Collectable)*
+
+Walls      = (Stone)* 
+Decor      = (SMALL_DECOR | FLOOR_CRACK | FLOOR_DIP | FLOOR_RISE | COLUMN | ROW | BOX_AND | BOX_OR | BOX_XOR)
+Collectable = (CRYSTAL3 | CRYSTAL5 | CRYSTAL10)
+Stone      = (BOX)*
+Obstacle   = ANY_OBSTACLE

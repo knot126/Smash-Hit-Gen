@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="2cm"
+   height="2cm"
+   viewBox="0 0 20 19.999999"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path23886" />
+    </marker>
+  </defs>
+  <g
+     id="layer1">
+    <rect
+       style="fill:#ececec;fill-rule:evenodd;stroke-width:0.460645"
+       id="rect47"
+       width="20"
+       height="20"
+       x="-2.220446e-16"
+       y="0" />
+    <rect
+       style="fill:#ff5555;fill-rule:evenodd;stroke-width:0.394679;opacity:0.5"
+       id="rect10321"
+       width="20"
+       height="14.681973"
+       x="-2.220446e-16"
+       y="2.6590133" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.0053px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0251325"
+       x="1.1875983"
+       y="3.9911399"
+       id="text10361"><tspan
+         id="tspan10359"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;fill:#ffffff;stroke-width:0.0251325"
+         x="1.1875983"
+         y="3.9911399">Walls and Floor</tspan></text>
+    <rect
+       style="fill:#00ff00;fill-rule:evenodd;stroke-width:0.298081;opacity:0.5"
+       id="rect13813"
+       width="15.10498"
+       height="11.088546"
+       x="2.4475102"
+       y="4.4557271" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.12524px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0281309"
+       x="-15.116364"
+       y="3.7284844"
+       id="text13835"
+       transform="rotate(-90)"><tspan
+         id="tspan13833"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;stroke-width:0.0281309"
+         x="-15.116364"
+         y="3.7284844">Decor, Crystals</tspan></text>
+    <circle
+       style="fill:#0000ff;stroke-width:0.31034;opacity:0.5"
+       id="path15943"
+       cx="9.8278742"
+       cy="9.9955416"
+       r="5.5213799" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.0053px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0251325"
+       x="7.2577925"
+       y="7.2001143"
+       id="text16061"><tspan
+         id="tspan16059"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;fill:#ffffff;stroke-width:0.0251325"
+         x="7.2577925"
+         y="7.2001143">Obstacles,</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;fill:#ffffff;stroke-width:0.0251325"
+         x="7.2577925"
+         y="8.4567394"
+         id="tspan26983">Crystals</tspan></text>
+    <circle
+       style="opacity:0.5;fill:#0000ff;stroke-width:0.0178982"
+       id="circle16099"
+       cx="9.8278742"
+       cy="9.9955416"
+       r="0.31843466" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.16196px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.029049"
+       x="18.025169"
+       y="19.352907"
+       id="text21325"><tspan
+         id="tspan21323"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;stroke-width:0.029049"
+         x="18.025169"
+         y="19.352907">X</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.05;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend);stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 0.36591893,19.619118 V 0.55694053"
+       id="path22968" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.05;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+       d="M 0.36591893,19.619118 H 19.428096"
+       id="path24133" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.16196px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.029049"
+       x="0.64570892"
+       y="2.2559321"
+       id="text24233"><tspan
+         id="tspan24231"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;stroke-width:0.029049"
+         x="0.64570892"
+         y="2.2559321">Y</tspan></text>
+  </g>
+</svg>

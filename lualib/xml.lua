@@ -5,6 +5,9 @@
 --------------------------------------------------------------------------------
 
 function _XmlNode_output(this)
+	--[[
+	Save the XML node to a string.
+	]]
 	local base = "<"
 	
 	base = base .. this.name
@@ -30,18 +33,28 @@ function _XmlNode_output(this)
 	return base
 end
 
+function _XmlNode_save(this, filename)
+	--[[
+	Save the XML node to a file.
+	]]
+	
+	f = io.open(filename, "w")
+	f:write(this:write())
+	f:close()
+end
+
 function XmlNode(name, attributes, children)
+	--[[
+	Create an XML node
+	]]
 	return {
 		name = name,
 		attributes = attributes,
 		children = children,
-		write = _XmlNode_output
+		write = _XmlNode_output,
+		save = _XmlNode_save
 	}
 end
 
 --------------------------------------------------------------------------------
-
-x = XmlNode("node", {first = "second", test = "23124"})
-print(XmlNode("node", {first = "second", test = "23124"}, {x}):write())
-
-print 'test'
+--------------------------------------------------------------------------------
