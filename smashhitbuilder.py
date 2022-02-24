@@ -381,12 +381,14 @@ class Segment:
 		"""
 		Add an entity to the level
 		"""
+		
 		self.entities.append(ent)
 	
 	def getString(self):
 		"""
 		Get a string of the level
 		"""
+		
 		return self.__format__()
 	
 	def setStonehack(self, stonehack = None):
@@ -394,15 +396,33 @@ class Segment:
 		Set the enablement of the stonehack, which adds stone with boxes so they
 		will visibly show.
 		"""
+		
 		self.stonehack = stonehack
 	
 	def write(self, path = "defaultSegment.xml"):
 		"""
 		Write the segment out to an uncompressed file
 		"""
+		
 		f = open(path, "w")
 		f.write(format(self))
 		f.close()
+	
+	def setProperties(self, obstacleTemplate = None, stoneTemplate = None):
+		"""
+		Set the properties needed for calls to createXXX so that they will have
+		the proper information.
+		"""
+		
+		self.obstacleTemplate = obstacleTemplate if obstacleTemplate != None else self.template
+		self.stoneTemplate = stoneTemplate if stoneTemplate != None else self.template
+		
+		return self
+	
+	def createBox(self, pos, size = Vec3(0.0, 0.0, 0.0)):
+		"""
+		Create a box using the default properties
+		"""
 
 class Entity:
 	"""

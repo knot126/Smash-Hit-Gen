@@ -39,23 +39,13 @@ class Bottom: pass
 class Left: pass
 class Right: pass
 
-class VSegment(Segment):
+class LevelStructure:
 	"""
-	Pre-baked, higher-level segment representation
+	A collection of variables controling the structure and properties of a
+	level.
 	"""
 	
-	def __init__(self, name = "", size = Vec3(), template = "", light = None, fog = None, shadow = None, entities = None, stonehack = None, obstacle_radius = 0):
-		"""
-		Initialise segment representation
-		"""
-		
-		super(self).__init__(name, size, template, light, fog, shadow, entities, stonehack)
-	
-	def makeWall(self, size = None):
-		"""
-		Creates a single wall object in the segment
-		"""
-		
+	def __init__(self):
 		pass
 
 def main():
